@@ -18,6 +18,7 @@ class StaticDataMember {
 		BankAccount a1 = new BankAccount();
 		a1.anum = 10;
 		a1.money = 100;
+//		a1.roi=4; bad practice(static data members should be modified using class and not object)
 		BankAccount.roi = 4;
 
 		a1.announce();
